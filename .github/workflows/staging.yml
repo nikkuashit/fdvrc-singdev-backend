@@ -17,5 +17,5 @@ jobs:
           server: ftp.curiositydesk.com
           username: ${{ secrets.ftp_username }}
           password: ${{ secrets.ftp_password }}
-          local-dir: ./hadoti_backend/
-          server-dir: /public_html/hadoti.curiositydesk.com/hadotifcp_backed/
+          local-dir: ./fdvrc-singdev-backend/
+          server-dir: /home/rmoktvux3m8e/public_html/singdev.curiositydesk.com/singhdevfcp_backed
